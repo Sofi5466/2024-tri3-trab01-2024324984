@@ -1,0 +1,109 @@
+.logos{
+    text-align: center;
+    display: block;
+}
+
+
+* {
+    margin: 0;
+    padding: 2px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 1vh;
+}
+
+.main-title {
+    margin: 80px;
+}
+
+.main-title h1 {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.authors {
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    text-align: justify;
+    font-weight: 1.5;
+}
+
+.left-column,
+.right-column {
+    width: 45%;
+}
+
+.left-column h3,
+.right-column h3 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.left-column p,
+.right-column p {
+    font-size: 1.5rem;
+    line-height: 1.6;
+    padding: 2vh;
+}
+
+p.email {
+    color: rgb(63, 124, 216);
+}
+
+.triangulo {
+    display: inline-block;
+    right: 0;
+    position: absolute;
+    margin-right: 0vw;
+    width: 10vw;
+    height: 3vh;
+    border-top: 0px solid transparent;
+    border-bottom: 5vh solid transparent;
+    border-right: 95vw solid rgb(44, 158, 3);
+    border-bottom-left-radius: 10%;
+    transform: rotate(0.5deg);
+}
+
+.triangulo-abaixo {
+    display: inline-block;
+    position: absolute;
+    margin-top: 2vw;
+    right: 0;
+    margin-right: 0vw;
+    width: 10vw;
+    height: 3vh;
+    border-top: 0px solid transparent;
+    border-bottom: 3vh solid transparent;
+    border-right: 85vw solid rgb(30, 105, 2);
+    border-bottom-left-radius: 10%;
+    transform: rotate(2deg);
+}
+
+.triangulo2 {
+    width: 0;
+    padding: auto;
+    height: 0;
+    border-top: 0px solid transparent;
+    border-bottom: 3vh solid transparent;
+    border-left: 85vw solid rgb(30, 105, 2);
+    transform: rotate(2deg);
+}
+
+.triangulo-abaixo2 {
+    display: inline-block;
+    width: 1px;
+    height: 0;
+    border-top: 0px solid transparent;
+    border-bottom: 4vh solid transparent;
+    border-left: 95vw solid rgb(44, 158, 3);
+    transform: rotate(0.5deg);
+}
